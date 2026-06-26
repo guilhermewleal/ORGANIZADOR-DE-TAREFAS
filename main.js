@@ -35,8 +35,8 @@ for(let i=0;i<botoes.length;i++){
         segundos%=60;
         minutos%=60;
         horas%=24;
-        if(tempoFinal>0){
-            return[dias,horas,minutos.segundos];
+        if(tempoFinal > 0){
+            return[dias,horas,minutos,segundos];
         } else {
             return[0,0,0,0];
         }
